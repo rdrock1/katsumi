@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    
+}
+h1 {
+    color: crimson;
+}
+h2 {
+    color:aliceblue;
+}
+p3{
+    color: aliceblue;
+}
+.column{
+    float: left;
+}
+
+.left{
+    width: 25%;
+}
+.right{
+    width: 75%;
+}
