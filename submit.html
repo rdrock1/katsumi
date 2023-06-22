@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" target="_blank" type="text/css" href="styles.css">
+    <body>
+        <head>
+            <style>
+                div{
+                    justify-content: center;
+                    display: flex
+                }
+            
+            </style>
+            <title>
+                Submitted!
+            </title>
+        </head>
+    <center>
+    <i><h1>Submission</h1></i>
+    <hr>
+        <a href="index.html"><button><h3>Main</h3></button></a>
+        <a href="about.html"><button><h3>About</h3></button></a>
+        <a href="contact.html"><button><h3>Contact</h3></button></a>
+   
+    <h2 style="color: darkgoldenrod">Thanks for your submission!</h2>
+    <div>
+    <h3>Due to a high volume of requests, you should be contacted by our representives in &nbsp</h3>
+    <h3 style="color: darkred" id="rand"></h3>
+    <h3> &nbsp years, &nbsp</h3>
+        <h3 style="color: darkred" id="rand2"></h3>
+        <h3>&nbsp days, and&nbsp</h3>
+        <h3 style="color: darkred" id="rand3"></h3>
+        <h3>&nbsp hours.&nbsp</h3>
+    </div>
+        <script>
+            let a = Math.random() * 100;
+            let y = Math.round(a)
+            document.getElementById("rand").innerHTML = y;
+            document.getElementById("rand2").innerHTML = y+5;
+            document.getElementById("rand3").innerHTML = y+25;
+        </script>
+    </center>
+    </body>
+
+</html>

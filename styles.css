@@ -1,18 +1,18 @@
-body {
+header {
     background-color: black;
     
 }
 h1 {
     color: crimson;
 }
-h2 {
-    color:aliceblue;
-}
-p3{
-    color: aliceblue;
-}
 .column{
     float: left;
+    width: 50%;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .left{
@@ -20,4 +20,7 @@ p3{
 }
 .right{
     width: 75%;
+}
+button{
+    border-style:double;
 }
